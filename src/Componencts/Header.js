@@ -5,8 +5,10 @@ import Nav from './Nav';
 function Header() {
   return (
     <header className="header">
-      <img src={logo} alt="Little Lemon Logo" className="logo" />
-      <Nav />
+      <div className="header-content">
+        <img src={logo} alt="Little Lemon Logo" className="logo" />
+        <Nav />
+      </div>
     </header>
   );
 }

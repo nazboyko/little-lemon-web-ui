@@ -1,15 +1,19 @@
-/* src/App.css */
-
 .header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px;
-  background-color: #f8f9fa;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .logo {
-  height: 50px; /* Adjust as needed */
+  height: 60px;
 }
 
 .nav {
@@ -25,14 +29,88 @@
 }
 
 .nav-list li {
-  margin-left: 20px; /* Adjust as needed */
+  margin-left: 20px;
 }
 
 .nav-list a {
   text-decoration: none;
   color: #000;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 .nav-list a:hover {
-  text-decoration: underline;
+  color: #f4ce14;
 }
+
+.footer {
+  background: linear-gradient(90deg, #495e57 0%, #39494a 50%, #4e555d 100%);
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer h3 {
+  font-size: 1.5rem;
+}
+
+.footer p {
+  margin: 10px 0;
+}
+
+.footer-logo {
+  height: 240px;
+  max-width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-nav li {
+  margin-bottom: 5px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #f4ce14; /* Hover color */
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-link {
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: #f4ce14;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+}
+
