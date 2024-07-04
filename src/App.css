@@ -59,6 +59,7 @@
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
+  flex-wrap: wrap; /* Allows wrapping of columns */
 }
 
 .footer-column {
@@ -119,3 +120,24 @@
   text-align: center;
 }
 
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    margin-right: 0;
+    margin-bottom: 20px; /* Add space between columns */
+    text-align: center; /* Center-align text for better readability */
+  }
+
+  .social-links {
+    justify-content: center; /* Center social links */
+  }
+
+  .footer-logo {
+    height: 120px; /* Reduce logo size for mobile */
+  }
+}
