@@ -1,4 +1,5 @@
 import React from 'react';
+import '../assets/styles/Nav.css';
 
 function Nav({ isVisible, isAnimating }) {
   return (

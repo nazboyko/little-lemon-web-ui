@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import logo from '../assets/images/Logo.svg';
 import Nav from './Nav';
+import '../assets/styles/Header.css';
 
 function Header() {
   const [isNavVisible, setNavVisibility] = useState(false);
