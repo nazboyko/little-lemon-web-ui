@@ -1,3 +1,25 @@
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
 .header {
   background-color: #f8f9fa;
   padding: 20px;
@@ -34,7 +56,7 @@
 }
 
 .nav-list li {
-  margin-left: 20px;
+  margin-left: 20px; /* Increase the space between items */
 }
 
 .nav-list a {
@@ -42,11 +64,62 @@
   color: #000;
   font-weight: bold;
   transition: color 0.3s ease;
+  padding: 10px 15px; /* Add padding to links */
 }
 
 .nav-list a:hover {
   color: #f4ce14;
 }
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+
+  .header-content {
+    justify-content: space-between;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 769px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+.nav.active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 80px; /* Adjust according to your header height */
+  right: 0;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 100%; /* Full width for better visibility */
+  animation: slideIn 0.3s forwards;
+}
+
+.nav.inactive {
+  animation: slideOut 0.3s forwards;
+}
+
+.nav-list.active {
+  flex-direction: column;
+}
+
+.nav-list li {
+  margin: 10px 0;
+}
+
+
+
 
 .footer {
   background: linear-gradient(90deg, #495e57 0%, #39494a 50%, #4e555d 100%);
