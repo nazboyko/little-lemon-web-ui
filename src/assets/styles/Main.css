@@ -1,0 +1,100 @@
+/* Main.css */
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .page-top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 40px 20px;
+    background: linear-gradient(90deg, #495e57 0%, #39494a 50%, #4e555d 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff; /* White text color */
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  
+  .info-block {
+    text-align: left;
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .info-block h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #ffd700; /* Gold color for Little Lemon text */
+  }
+  
+  .info-block h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #ccc;
+  }
+  
+  .info-block p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #eee;
+  }
+  
+  .reserve-button {
+    font-size: 1.25rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reserve-button:hover {
+    background-color: #e55342;
+  }
+  
+  .image-block {
+    flex: 1;
+    max-width: 400px; /* Fixed width for the image block */
+    height: auto; /* Auto height to maintain aspect ratio */
+    margin-bottom: -60px;
+    box-sizing: border-box;
+  }
+  
+  .image-block img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover; /* Ensure the image covers the block area */
+    border-radius: 10px;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .page-top-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .info-block {
+      margin-right: 0;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    .image-block {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+    }
+  }
+  
