@@ -1,0 +1,116 @@
+/* Specials.css */
+.specials {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .specials-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .specials-header h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .order-button {
+    background-color: #f4ce14;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .order-button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .menu-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .dish-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+  }
+  
+  .dish-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .dish-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .dish-details {
+    padding: 20px;
+  }
+  
+  .dish-title-cost-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  .cost-text {
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  .paragraph-text {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .delivery-btn-box {
+    width: 100%;
+  }
+  
+  .delivery-btn {
+    width: 100%;
+    background-color: #f4ce14;
+    color: #333;
+    padding: 15px 0;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .delivery-btn:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dish-delivery-icon {
+    margin-left: 5px;
+  }
+  

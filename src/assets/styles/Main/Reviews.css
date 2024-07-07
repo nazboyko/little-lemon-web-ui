@@ -1,0 +1,12 @@
+/* Reviews.css */
+.reviews {
+    text-align: center;
+    margin: 40px 0; /* Spacing between sections */
+  }
+  
+  .reviews h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #495e57;
+  }
+  
