@@ -34,12 +34,6 @@ function Specials() {
       price: '$ 12.99',
       description: 'Joojeh Kabob, also spelled Jujeh Kabab, is the Persian version of the chicken kabob and one of Iran’s most delicious and popular dishes. A flavorful chicken marinade with saffron, turmeric, Greek yogurt, and lemon creates juicy, tender chicken loaded with flavor.',
       image: greekSalad
-    },
-    {
-      title: 'Chicken Salad',
-      price: '$ 10.49',
-      description: 'This healthy chicken salad recipe is hearty, flavorful, and packs a nice fresh crunch. Thanks to rotisserie chicken it\'s so easy to make and just as easy to enjoy no matter what the day holds.',
-      image: greekSalad
     }
   ];
 
