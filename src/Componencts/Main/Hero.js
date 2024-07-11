@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/styles/Main/HeroSection.css';
+import '../../assets/styles/Main/Hero.css';
 import yourImage from '../../assets/images/restauranfood.jpg'; // Import your image
 
 function HeroSection() {
