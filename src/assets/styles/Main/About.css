@@ -1,3 +1,4 @@
+/* About.css */
 .about {
     padding: 20px;
 }
@@ -12,7 +13,7 @@
 }
 
 .about-text {
-    color: #333; /* Dark text color for contrast against the white background */
+    color: #333;
 }
 
 .about-text h1 {
@@ -35,7 +36,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 20px; /* Adjust gap between images */
+    gap: 20px; 
 }
 
 .about-image {
@@ -63,46 +64,46 @@
     }
 
     .about-images {
-    grid-template-columns: 1fr 1fr; /* Adjust number of columns as needed */
-    grid-template-rows: auto; /* Reset rows for mobile view */
-    gap: 10px; /* Adjust gap for mobile */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
     }
 
     .about-image:first-child,
     .about-image:last-child {
-    grid-column: auto; /* Reset grid columns for mobile */
-    grid-row: auto; /* Reset grid rows for mobile */
+    grid-column: auto;
+    grid-row: auto;
     }
 }
 
 @media (max-width: 768px) {
     .about-text h1 {
-    font-size: 2rem; /* Adjust font size for smaller screens */
+    font-size: 2rem;
     }
 
     .about-text h2 {
-    font-size: 1.5rem; /* Adjust font size for smaller screens */
+    font-size: 1.5rem;
     }
 
     .about-text p {
-    font-size: 0.9rem; /* Adjust font size for smaller screens */
+    font-size: 0.9rem;
     }
 
     .about-images {
-    grid-template-columns: 1fr; /* Single column layout for smaller screens */
+    grid-template-columns: 1fr;
     }
 }
 
 @media (max-width: 480px) {
     .about-text h1 {
-    font-size: 1.5rem; /* Further adjust font size for smallest screens */
+    font-size: 1.5rem;
     }
 
     .about-text h2 {
-    font-size: 1.25rem; /* Further adjust font size for smallest screens */
+    font-size: 1.25rem;
     }
 
     .about-text p {
-    font-size: 0.8rem; /* Further adjust font size for smallest screens */
+    font-size: 0.8rem;
     }
 }

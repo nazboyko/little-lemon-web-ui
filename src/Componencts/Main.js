@@ -4,12 +4,12 @@ import '../assets/styles/Main.css';
 import Specials from './Main/Specials';
 import Reviews from './Main/Reviews';
 import About from './Main/About';
-import HeroSection from './Main/HeroSection';
+import Hero from './Main/Hero';
 
 function Main() {
   return (
     <main className="main-content">
-      <HeroSection />
+      <Hero />
       <Specials />
       <Reviews />
       <About />

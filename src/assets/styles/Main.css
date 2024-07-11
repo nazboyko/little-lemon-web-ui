@@ -1,9 +1,19 @@
 /* Main.css */
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .main-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
   background-color: #f8f9fa;
-  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }

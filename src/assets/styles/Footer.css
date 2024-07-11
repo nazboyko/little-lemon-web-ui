@@ -1,93 +1,93 @@
 .footer {
-    background: linear-gradient(90deg, #495e57 0%, #39494a 50%, #4e555d 100%);
-    color: #fff;
-    padding: 40px 20px;
-  }
-  
+  background: linear-gradient(90deg, #495e57 0%, #39494a 50%, #4e555d 100%);
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer h3 {
+  font-size: 1.5rem;
+}
+
+.footer p {
+  margin: 10px 0;
+}
+
+.footer-logo {
+  height: 240px;
+  max-width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-nav li {
+  margin-bottom: 5px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #f4ce14;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-link {
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: #f4ce14;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
   .footer-content {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
   }
-  
+
   .footer-column {
-    flex: 1;
-    margin-right: 20px;
-  }
-  
-  .footer h3 {
-    font-size: 1.5rem;
-  }
-  
-  .footer p {
-    margin: 10px 0;
-  }
-  
-  .footer-logo {
-    height: 240px;
-    max-width: 100%;
-    display: block;
+    margin-right: 0;
     margin-bottom: 20px;
-  }
-  
-  .footer-nav {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-nav li {
-    margin-bottom: 5px;
-  }
-  
-  .footer-nav a {
-    text-decoration: none;
-    color: #fff;
-    transition: color 0.3s ease;
-  }
-  
-  .footer-nav a:hover {
-    color: #f4ce14;
-  }
-  
-  .social-links {
-    display: flex;
-  }
-  
-  .social-link {
-    margin-right: 10px;
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .social-link:hover {
-    color: #f4ce14;
-  }
-  
-  .footer-bottom {
-    margin-top: 20px;
     text-align: center;
   }
-  
-  /* Mobile Styles */
-  @media (max-width: 768px) {
-    .footer-content {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .footer-column {
-      margin-right: 0;
-      margin-bottom: 20px;
-      text-align: center;
-    }
-  
-    .social-links {
-      justify-content: center;
-    }
-  
-    .footer-logo {
-      height: 120px;
-    }
+
+  .social-links {
+    justify-content: center;
   }
+
+  .footer-logo {
+    height: 120px;
+  }
+}
