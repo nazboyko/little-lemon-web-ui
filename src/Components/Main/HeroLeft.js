@@ -2,10 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../../assets/styles/Main/Hero.css';
 
-function HeroRight({ title, subtitle, description, buttonText, buttonLink, image, imageAlt }) {
+function HeroLeft({ title, subtitle, description, buttonText, buttonLink, image, imageAlt }) {
   return (
-    <section className="hero">
+    <section className="hero hero-left">
       <div className="hero-container">
+        <div className="image-block">
+          <img src={image} alt={imageAlt} />
+        </div>
         <div className="info-block">
           <h1>{title}</h1>
           <h2>{subtitle}</h2>
@@ -16,12 +19,9 @@ function HeroRight({ title, subtitle, description, buttonText, buttonLink, image
             </Link>
           )}
         </div>
-        <div className="image-block">
-          <img src={image} alt={imageAlt} />
-        </div>
       </div>
     </section>
   );
 }
 
-export default HeroRight;
+export default HeroLeft;
