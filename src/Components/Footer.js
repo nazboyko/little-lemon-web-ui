@@ -36,9 +36,9 @@ function Footer() {
       <div className="footer-column">
         <h3>Follow Us</h3>
         <div className="social-links">
-          <a href="https://facebook.com" className="social-link">Facebook</a>
-          <a href="https://twitter.com" className="social-link">Twitter</a>
-          <a href="https://instagram.com" className="social-link">Instagram</a>
+          <button className="social-button">Facebook</button>
+          <button className="social-button">Twitter</button>
+          <button className="social-button">Instagram</button>
         </div>
       </div>
     </div>
