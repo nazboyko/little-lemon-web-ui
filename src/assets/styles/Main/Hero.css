@@ -13,7 +13,7 @@
   color: #fff;
   flex-wrap: wrap;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 0px 20px 20px;
 }
 
 .info-block {
@@ -48,6 +48,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  text-decoration: none;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -61,6 +62,7 @@
   flex: 1;
   height: auto;
   box-sizing: border-box;
+  padding: 0 20px 0 0;
 }
 
 .image-block img {

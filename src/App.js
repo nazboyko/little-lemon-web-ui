@@ -6,6 +6,7 @@ import HomePage from './Components/Pages/HomePage'; // Import your homepage comp
 import AboutPage from './Components/Pages/AboutPage';
 import MenuPage from './Components/Pages/MenuPage';
 import ReservationsPage from './Components/Pages/ReservationsPage';
+import BookedPage from './Components/Pages/BookedPage';
 import OrderPage from './Components/Pages/OrderPage';
 import ContactPage from './Components/Pages/ContactPage';
 import LoginPage from './Components/Pages/LoginPage';
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/menu" element={<MenuPage />} />
           <Route path="/reservations" element={<ReservationsPage />} />
+          <Route path="/booked" element={<BookedPage />} />
           <Route path="/order" element={<OrderPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/login" element={<LoginPage />} />

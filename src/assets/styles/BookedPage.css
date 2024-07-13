@@ -1,0 +1,40 @@
+/* BookedPage.css */
+
+.booked-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'YourFontFamily', sans-serif; /* Update with your site's font family */
+}
+
+.booked-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.booked-photo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.booked-photo img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
