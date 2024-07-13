@@ -1,0 +1,58 @@
+.hours-section {
+    padding: 20px;
+}
+
+.hours-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #39494a;
+}
+
+.hours-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.info-item {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.info-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.info-item p {
+    margin-bottom: 5px;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.social-links a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .info-item {
+        width: 100%;
+    }
+}

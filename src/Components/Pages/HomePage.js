@@ -3,14 +3,14 @@ import '../../assets/styles/Main.css';
 import Specials from '../Main/Specials';
 import Reviews from '../Main/Reviews';
 import About from '../Main/About';
-import Hero from '../Main/Hero';
+import HeroRight from '../Main/HeroRight';
 import HomeHeroImage from '../../assets/images/restauranfood.jpg';
 
 
 function HomePage() {
   return (
     <main className="main-content">
-      <Hero
+      <HeroRight
          title="Welcome to Little Lemon"
          subtitle="Chicago"
          description=" We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist."

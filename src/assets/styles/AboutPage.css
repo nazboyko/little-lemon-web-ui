@@ -1,0 +1,7 @@
+.big-bold {
+    font-size: 3em; /* Adjust size as needed */
+    font-weight: bold;
+    float: left;
+    margin-right: 10px;
+    line-height: 1; /* Ensure proper alignment */
+}
