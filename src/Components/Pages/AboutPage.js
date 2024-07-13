@@ -3,8 +3,6 @@ import '../../assets/styles/AboutPage.css';
 import aboutHeroImage from '../../assets/images/restaurant.jpg';
 import HeroLeft from '../Main/HeroLeft';
 import Description from '../Main/Description';
-import MapSection from '../Main/Map';
-import HoursOfOperation from '../Main/HoursOfOperation';
 
 function AboutPage() {
   return (
@@ -17,8 +15,6 @@ function AboutPage() {
         imageAlt="Reserve a Table"
       />
       <Description />
-      <MapSection />
-      <HoursOfOperation />
     </main>
   );
 }
