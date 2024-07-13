@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
-import '../../assets/styles/Main/ReserveForm.css'; // Import your form styles here
+import { useNavigate } from 'react-router-dom';
+import '../../assets/styles/Main/ReserveForm.css';
 
-function ReserveForm() {
+function ReserveForm({ availableTimes, updateTimes }) {
+  const navigate = useNavigate();
+
   const [formData, setFormData] = useState({
     date: '',
     time: '',
@@ -27,6 +30,10 @@ function ReserveForm() {
       ...formData,
       [name]: value
     });
+
+    if (name === 'date') {
+      updateTimes(value); // Dispatch state change to parent
+    }
   };
 
   // Validate the form before submission
@@ -87,6 +94,10 @@ function ReserveForm() {
     if (validateForm()) {
       // Handle form submission logic here (e.g., send data to server)
       console.log('Form submitted successfully:', formData);
+      
+      // Redirect to the BookedPage with booking details
+      navigate('/booked', { state: formData });
+
       // Reset form data if needed
       setFormData({
         date: '',
@@ -121,12 +132,11 @@ function ReserveForm() {
         <label>Time *</label>
         <select name="time" value={formData.time} onChange={handleInputChange} required>
           <option value="">Select Time</option>
-          <option value="17:00">5:00 PM</option>
-          <option value="18:00">6:00 PM</option>
-          <option value="19:00">7:00 PM</option>
-          <option value="20:00">8:00 PM</option>
-          <option value="21:00">9:00 PM</option>
-          <option value="22:00">10:00 PM</option>
+          {availableTimes.map((timeOption) => (
+            <option key={timeOption.value} value={timeOption.value}>
+              {timeOption.label}
+            </option>
+          ))}
         </select>
         {formErrors.time && <span className="error">{formErrors.time}</span>}
       </div>
