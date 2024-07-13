@@ -94,7 +94,7 @@ function ReserveForm({ availableTimes, updateTimes }) {
     if (validateForm()) {
       // Handle form submission logic here (e.g., send data to server)
       console.log('Form submitted successfully:', formData);
-      
+
       // Redirect to the BookedPage with booking details
       navigate('/booked', { state: formData });
 
@@ -116,8 +116,9 @@ function ReserveForm({ availableTimes, updateTimes }) {
   return (
     <form className="reserve-form" onSubmit={handleSubmit}>
       <div className="form-group">
-        <label>Date *</label>
+        <label htmlFor="date">Date *</label>
         <input
+          id="date"
           type="date"
           name="date"
           value={formData.date}
@@ -129,8 +130,14 @@ function ReserveForm({ availableTimes, updateTimes }) {
       </div>
 
       <div className="form-group">
-        <label>Time *</label>
-        <select name="time" value={formData.time} onChange={handleInputChange} required>
+        <label htmlFor="time">Time *</label>
+        <select
+          id="time"
+          name="time"
+          value={formData.time}
+          onChange={handleInputChange}
+          required
+        >
           <option value="">Select Time</option>
           {availableTimes.map((timeOption) => (
             <option key={timeOption.value} value={timeOption.value}>
@@ -142,8 +149,9 @@ function ReserveForm({ availableTimes, updateTimes }) {
       </div>
 
       <div className="form-group">
-        <label>Number of Guests *</label>
+        <label htmlFor="numberOfGuests">Number of Guests *</label>
         <input
+          id="numberOfGuests"
           type="number"
           name="numberOfGuests"
           value={formData.numberOfGuests}
@@ -156,8 +164,13 @@ function ReserveForm({ availableTimes, updateTimes }) {
       </div>
 
       <div className="form-group">
-        <label>Occasion</label>
-        <select name="occasion" value={formData.occasion} onChange={handleInputChange}>
+        <label htmlFor="occasion">Occasion</label>
+        <select
+          id="occasion"
+          name="occasion"
+          value={formData.occasion}
+          onChange={handleInputChange}
+        >
           <option value="">Select Occasion</option>
           <option value="Birthday">Birthday</option>
           <option value="Anniversary">Anniversary</option>
@@ -167,8 +180,9 @@ function ReserveForm({ availableTimes, updateTimes }) {
       </div>
 
       <div className="form-group">
-        <label>Full Name *</label>
+        <label htmlFor="fullName">Full Name *</label>
         <input
+          id="fullName"
           type="text"
           name="fullName"
           value={formData.fullName}
@@ -179,8 +193,9 @@ function ReserveForm({ availableTimes, updateTimes }) {
       </div>
 
       <div className="form-group">
-        <label>Phone Number *</label>
+        <label htmlFor="phoneNumber">Phone Number *</label>
         <input
+          id="phoneNumber"
           type="tel"
           name="phoneNumber"
           value={formData.phoneNumber}
@@ -192,8 +207,9 @@ function ReserveForm({ availableTimes, updateTimes }) {
       </div>
 
       <div className="form-group full-width">
-        <label>Special Instructions</label>
+        <label htmlFor="specialInstructions">Special Instructions</label>
         <textarea
+          id="specialInstructions"
           name="specialInstructions"
           value={formData.specialInstructions}
           onChange={handleInputChange}
