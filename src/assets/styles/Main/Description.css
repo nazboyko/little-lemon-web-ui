@@ -1,0 +1,59 @@
+.desc {
+    padding: 20px;
+}
+
+.desc-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.desc-text {
+    margin-right: 20px;
+    text-align: justify; /* Ensure text is justified */
+}
+
+.desc-text-content {
+    position: relative;
+}
+
+.desc-text p {
+    margin-bottom: 15px;
+    line-height: 1.6; /* Improve readability with slightly increased line-height */
+}
+
+.desc-text .big-bold {
+    font-size: 3em;
+    font-weight: bold;
+    margin-right: 10px;
+    line-height: 1;
+}
+
+.desc-image {
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.desc-image-left {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.desc-image-right {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .desc-text {
+        text-align: center;
+    }
+
+    .desc-image {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+}
