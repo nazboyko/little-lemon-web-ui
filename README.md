@@ -30,7 +30,7 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-![alt text](https://github.com/Nazar0102/little-lemon-web-ui/blob/main/src/assets/images/temp/testing.svg?raw=true)
+![alt text](https://github.com/Nazar0102/little-lemon-web-ui/blob/main/src/assets/images/temp/testing.png?raw=true)
 
 
 ### `npm run build`
