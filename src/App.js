@@ -10,7 +10,7 @@ import BookedPage from './Components/Pages/BookedPage';
 import ContactPage from './Components/Pages/ContactPage';
 function App() {
   return (
-    <Router>
+    <Router basename="/little-lemon-web-ui">
       <div className="App">
         <Header />
         <Routes>
