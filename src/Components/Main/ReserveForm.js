@@ -92,6 +92,7 @@ function ReserveForm({ availableTimes, updateTimes }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
+      // Handle form submission logic here (e.g., send data to server)
       console.log('Form submitted successfully:', formData);
       navigate('/booked', { state: formData });
       setFormData({

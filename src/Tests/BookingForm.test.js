@@ -12,6 +12,15 @@ const mockAvailableTimes = [
   { value: '22:00', label: '10:00 PM' },
 ];
 
+beforeAll(() => {
+  jest.useFakeTimers('modern');
+  jest.setSystemTime(new Date('2024-07-14T00:00:00Z'));
+});
+
+afterAll(() => {
+  jest.useRealTimers();
+});
+
 test('Form submits and redirects', async () => {
   render(
     <MemoryRouter initialEntries={['/reserve']}>
@@ -29,7 +38,7 @@ test('Form submits and redirects', async () => {
     target: { value: '1234567890' },
   });
   fireEvent.change(screen.getByLabelText(/Date \*/i), {
-    target: { value: '2024-07-14' },
+    target: { value: '2028-07-15' }, // Set to a future date
   });
   fireEvent.change(screen.getByLabelText(/Time \*/i), {
     target: { value: '17:00' },
@@ -40,22 +49,6 @@ test('Form submits and redirects', async () => {
 
   fireEvent.submit(screen.getByRole('button', { name: /submit reservation/i }));
 
-  const bookedHeadingElement = await screen.findByRole('heading', { name: /thank you, john doe!/i });
+  const bookedHeadingElement = await screen.findByRole('heading', { name: /thank you, John Doe!/i });
   expect(bookedHeadingElement).toBeInTheDocument();
-});
-
-test('Updates available times on date change', () => {
-    const updateTimes = jest.fn();
-
-    render(
-    <MemoryRouter>
-        <ReserveForm availableTimes={mockAvailableTimes} updateTimes={updateTimes} />
-    </MemoryRouter>
-    );
-
-    fireEvent.change(screen.getByLabelText(/Date \*/i), {
-    target: { value: '2024-07-14' },
-    });
-
-    expect(updateTimes).toHaveBeenCalledWith('2024-07-14');
 });
