@@ -1,4 +1,4 @@
-# Little Lemon Restaurant
+# [Little Lemon Restaurant](https://nazar0102.github.io/little-lemon-web-ui/)
 ![alt text](https://github.com/Nazar0102/little-lemon-web-ui/blob/main/src/assets/images/Logo.svg?raw=true)
 
 Welcome to the Little Lemon Restaurant website project! This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
