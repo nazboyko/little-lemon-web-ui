@@ -1,4 +1,4 @@
-import React, { useReducer } from 'react'; // Remove useState import
+import React, { useReducer } from 'react';
 import '../../assets/styles/Main.css';
 import HeroLeft from '../Main/HeroLeft';
 import ReserveForm from '../Main/ReserveForm';

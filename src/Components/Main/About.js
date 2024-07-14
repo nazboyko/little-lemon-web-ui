@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../assets/styles/Main/About.css';
-import aboutImage1 from '../../assets/images/Mario_and_Adrian.jpg'; // Add your image path
-import aboutImage2 from '../../assets/images/restaurant_chef.jpg'; // Add your image path
+import aboutImage1 from '../../assets/images/Mario_and_Adrian.jpg';
+import aboutImage2 from '../../assets/images/restaurant_chef.jpg';
 
 function About() {
   return (

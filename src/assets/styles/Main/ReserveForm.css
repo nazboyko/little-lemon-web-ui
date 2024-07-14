@@ -4,13 +4,13 @@
     box-sizing: border-box;
     width: 100%;
     max-width: 1200px;
-    color: #495e57; /* Adjust text color */
+    color: #495e57;
     display: flex;
     flex-wrap: wrap;
 }
 
 .form-group {
-    flex: 1 1 100%; /* Take full width on smaller screens */
+    flex: 1 1 100%;
     margin-bottom: 20px;
 }
 
@@ -29,8 +29,8 @@
     font-size: 1rem;
     border: 1px solid #ced4da;
     border-radius: 4px;
-    background-color: #fff; /* Adjust background color */
-    color: #495e57; /* Adjust text color */
+    background-color: #fff;
+    color: #495e57;
 }
 
 .form-group textarea {
@@ -53,7 +53,7 @@
 button[type="submit"] {
     background-color: #f4ce14;
     color: #333;
-    padding: 14px 28px; /* Increase padding for larger button on smaller screens */
+    padding: 14px 28px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -69,7 +69,7 @@ button[type="submit"]:hover {
 
 @media (min-width: 769px) {
     .form-group {
-    flex: 1 1 calc(50% - 20px); /* Two columns layout for larger screens */
+    flex: 1 1 calc(50% - 20px);
     margin-right: 20px;
     }
 

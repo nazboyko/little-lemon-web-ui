@@ -1,7 +1,7 @@
 // Reviews.js
 
 import React from 'react';
-import Article from './Article'; // Assuming you have an Article component
+import Article from './Article';
 import '../../assets/styles/Main/Reviews.css';
 
 function Reviews() {

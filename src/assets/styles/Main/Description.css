@@ -9,7 +9,7 @@
 
 .desc-text {
     margin-right: 20px;
-    text-align: justify; /* Ensure text is justified */
+    text-align: justify;
 }
 
 .desc-text-content {
@@ -18,7 +18,7 @@
 
 .desc-text p {
     margin-bottom: 15px;
-    line-height: 1.6; /* Improve readability with slightly increased line-height */
+    line-height: 1.6;
 }
 
 .desc-text .big-bold {

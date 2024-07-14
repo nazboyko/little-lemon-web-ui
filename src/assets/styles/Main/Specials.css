@@ -37,29 +37,41 @@
   color: #fff;
 }
 
-.menu-list {
+.special-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .specials-container {
-    padding: 0 20px; /* Adjust padding for smaller screens */
+    padding: 0 20px;
   }
+}
 
+@media (max-width: 768px) {
   .specials-header {
-    flex-direction: column; /* Stack header items vertically on small screens */
-    text-align: center; /* Center align text in header */
+    flex-direction: column;
+    text-align: center;
   }
 
   .specials-header h2 {
-    font-size: 1.5rem; /* Decrease font size for smaller screens */
-    margin-bottom: 10px; /* Adjust spacing */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
   }
 
   .order-button {
-    width: 100%; /* Full width button on smaller screens */
-    margin-top: 10px; /* Adjust spacing */
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .special-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .special-list {
+    grid-template-columns: 1fr;
   }
 }
