@@ -21,7 +21,7 @@
   position: relative;
   transition: color 0.3s ease;
   padding: 10px 15px;
-  font-family: 'Poppins', sans-serif; /* Applying Poppins font */
+  font-family: 'Poppins', sans-serif;
 }
 
 .nav-list a:hover {
@@ -66,6 +66,12 @@
 
 .nav-list li {
   margin: 10px 0;
+}
+
+.github-icon {
+  width: 20px;
+  height: auto;
+  margin-left: 5px;
 }
 
 @keyframes slideIn {
