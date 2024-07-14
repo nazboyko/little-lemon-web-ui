@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../assets/images/Logo.svg';
 import Nav from './Nav';
 import '../assets/styles/Header.css';
@@ -44,7 +45,9 @@ function Header() {
   return (
     <header className="header">
       <div className="header-content">
-        <img src={logo} alt="Little Lemon Logo" className="logo" />
+        <Link to="/">
+          <img src={logo} alt="Little Lemon Logo" className="logo" />
+        </Link>
         <div className={`hamburger ${isNavVisible ? 'open' : ''}`} onClick={toggleNav}>
           <span></span>
           <span></span>
