@@ -1,0 +1,174 @@
+[
+  {
+    "title": "Starters & Small Plates",
+    "subtitle": "Begin Your Culinary Journey",
+    "description": "Kick off your meal with our delightful selection of appetizers. From fresh salads to savory bites, each dish is crafted to tantalize your taste buds and set the stage for the courses to come.",
+    "dishes": [
+      {
+        "title": "Greek Salad",
+        "price": "$5.99",
+        "description": "A fresh mix of cucumbers, tomatoes, olives, and feta cheese, drizzled with olive oil and herbs.",
+        "image": "greekSalad"
+      },
+      {
+        "title": "Bruschetta",
+        "price": "$6.99",
+        "description": "Toasted bread topped with a mixture of diced tomatoes, basil, garlic, and olive oil.",
+        "image": "bruschetta"
+      },
+      {
+        "title": "Falafel",
+        "price": "$7.99",
+        "description": "Crispy chickpea balls served with a side of tahini sauce and fresh vegetables.",
+        "image": "falafel"
+      },
+      {
+        "title": "Hummus",
+        "price": "$4.99",
+        "description": "Creamy chickpea dip served with warm pita bread.",
+        "image": "hummus"
+      },
+      {
+        "title": "Stuffed Grape Leaves",
+        "price": "$6.49",
+        "description": "Grape leaves stuffed with a savory mix of rice, herbs, and spices.",
+        "image": "stuffedGrapeLeaves"
+      },
+      {
+        "title": "Caprese Salad",
+        "price": "$7.49",
+        "description": "Sliced tomatoes, mozzarella, and basil drizzled with balsamic glaze.",
+        "image": "capreseSalad"
+      }
+    ]
+  },
+  {
+    "title": "Entrees & Main Dishes",
+    "subtitle": "The Heart of Our Menu",
+    "description": "Discover a diverse array of main courses that showcase the best of Mediterranean cuisine. Our entrees feature a harmonious blend of traditional flavors and modern culinary techniques, offering something for every palate.",
+    "dishes": [
+      {
+        "title": "Grilled Lamb Chops",
+        "price": "$18.99",
+        "description": "Succulent lamb chops grilled to perfection, served with rosemary potatoes and seasonal vegetables.",
+        "image": "grilledLambChops"
+      },
+      {
+        "title": "Chicken Souvlaki",
+        "price": "$14.99",
+        "description": "Tender chicken skewers marinated in Mediterranean spices, served with rice and tzatziki sauce.",
+        "image": "chickenSouvlaki"
+      },
+      {
+        "title": "Moussaka",
+        "price": "$15.99",
+        "description": "Layers of eggplant, ground beef, and béchamel sauce baked to golden perfection.",
+        "image": "moussaka"
+      },
+      {
+        "title": "Seafood Paella",
+        "price": "$19.99",
+        "description": "A flavorful mix of saffron rice, shrimp, mussels, and calamari.",
+        "image": "seafooPaella"
+      },
+      {
+        "title": "Vegetarian Platter",
+        "price": "$13.99",
+        "description": "A variety of grilled vegetables, falafel, hummus, and tabbouleh.",
+        "image": "vegetarianPlatter"
+      },
+      {
+        "title": "Beef Shawarma",
+        "price": "$16.99",
+        "description": "Thinly sliced beef served with pita bread, tahini sauce, and pickled vegetables.",
+        "image": "beefShawarma"
+      }
+    ]
+  },
+  {
+    "title": "Desserts & Sweet Treats",
+    "subtitle": "Indulge in Sweet Delights",
+    "description": "End your meal on a high note with our delectable desserts. From classic favorites to innovative creations, our desserts are the perfect way to satisfy your sweet tooth and complete your dining experience.",
+    "dishes": [
+      {
+        "title": "Baklava",
+        "price": "$5.99",
+        "description": "Layers of filo pastry filled with chopped nuts and honey syrup.",
+        "image": "baklava"
+      },
+      {
+        "title": "Tiramisu",
+        "price": "$6.99",
+        "description": "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cheese.",
+        "image": "tiramisu"
+      },
+      {
+        "title": "Panna Cotta",
+        "price": "$6.49",
+        "description": "Creamy Italian dessert topped with a fresh berry compote.",
+        "image": "pannaCotta"
+      },
+      {
+        "title": "Lemon Sorbet",
+        "price": "$4.99",
+        "description": "Refreshing lemon sorbet with a hint of mint.",
+        "image": "lemonSorbet"
+      },
+      {
+        "title": "Chocolate Mousse",
+        "price": "$6.49",
+        "description": "Rich chocolate mousse with a touch of orange zest.",
+        "image": "chocolateMousse"
+      },
+      {
+        "title": "Cannoli",
+        "price": "$5.99",
+        "description": "Crispy pastry shells filled with sweet ricotta cheese and chocolate chips.",
+        "image": "cannoli"
+      }
+    ]
+  },
+  {
+    "title": "Beverages & Refreshments",
+    "subtitle": "Quench Your Thirst",
+    "description": "Complement your meal with our selection of beverages. From refreshing non-alcoholic drinks to carefully curated wines and cocktails, we have the perfect drink to enhance your dining experience.",
+    "dishes": [
+      {
+        "title": "Iced Tea",
+        "price": "$2.99",
+        "description": "Refreshing iced tea with a hint of lemon.",
+        "image": "icedTea"
+      },
+      {
+        "title": "Lemonade",
+        "price": "$3.49",
+        "description": "Freshly squeezed lemonade with a touch of mint.",
+        "image": "lemonade"
+      },
+      {
+        "title": "Greek Coffee",
+        "price": "$4.49",
+        "description": "Traditional Greek coffee with a rich, bold flavor.",
+        "image": "greekCoffee"
+      },
+      {
+        "title": "Red Wine",
+        "price": "$7.99",
+        "description": "A glass of our house red wine.",
+        "image": "redWine"
+      },
+      {
+        "title": "White Wine",
+        "price": "$7.99",
+        "description": "A glass of our house white wine.",
+        "image": "whiteWine"
+      },
+      {
+        "title": "Mediterranean Cocktail",
+        "price": "$8.99",
+        "description": "A refreshing cocktail inspired by Mediterranean flavors.",
+        "image": "mediterraneanCocktail"
+      }
+    ]
+  }
+]

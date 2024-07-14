@@ -1,0 +1,74 @@
+/* MenuSection.css */
+.menu-section {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.menu-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-header h2 {
+    font-size: 2rem;
+    color: #39494a;
+}
+
+.order-button {
+    background-color: #f4ce14;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.order-button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-category {
+    margin-bottom: 40px;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .menu-container {
+    padding: 0 20px;
+    }
+
+    .menu-header {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .menu-header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    }
+
+    .order-button {
+    width: 100%;
+    margin-top: 10px;
+    }
+}

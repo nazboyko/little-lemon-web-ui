@@ -32,7 +32,7 @@ function ReserveForm({ availableTimes, updateTimes }) {
     });
 
     if (name === 'date') {
-      updateTimes(value); // Dispatch state change to parent
+      updateTimes(value);
     }
   };
 
@@ -92,13 +92,8 @@ function ReserveForm({ availableTimes, updateTimes }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
-      // Handle form submission logic here (e.g., send data to server)
       console.log('Form submitted successfully:', formData);
-
-      // Redirect to the BookedPage with booking details
       navigate('/booked', { state: formData });
-
-      // Reset form data if needed
       setFormData({
         date: '',
         time: '',
