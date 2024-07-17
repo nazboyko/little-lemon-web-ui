@@ -14,12 +14,11 @@ function Footer() {
         <div className="footer-column">
           <h3>Doormat Navigation</h3>
           <ul className="footer-nav">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#reservations">Reservations</a></li>
-            <li><a href="#order">Order</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/menu">Menu</Link></li>
+            <li><Link to="/reservations">Reservations</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
           </ul>
         </div>
 
