@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../assets/images/footer-logo.png';
 import GitHubIcon from '../assets/images/icons/github2.png';
 import '../assets/styles/Footer.css';
