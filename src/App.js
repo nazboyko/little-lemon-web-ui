@@ -8,6 +8,9 @@ import MenuPage from './Components/Pages/MenuPage';
 import ReservationsPage from './Components/Pages/ReservationsPage';
 import BookedPage from './Components/Pages/BookedPage';
 import ContactPage from './Components/Pages/ContactPage';
+import LoginPage from './Components/Pages/LoginPage';
+import SignUpPage from './Components/Pages/SignUpPage';
+
 function App() {
   return (
     <Router basename="/little-lemon-web-ui">
@@ -20,6 +23,8 @@ function App() {
           <Route path="/reservations" element={<ReservationsPage />} />
           <Route path="/booked" element={<BookedPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/login" component={<LoginPage />} />
+          <Route path="/signup" component={<SignUpPage />} />
         </Routes>
         <Footer />
       </div>
