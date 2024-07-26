@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/little-lemon-web-ui/static/css/main.1b05659f.css",
-    "main.js": "/little-lemon-web-ui/static/js/main.751cb4d7.js",
+    "main.css": "/little-lemon-web-ui/static/css/main.eb26cf47.css",
+    "main.js": "/little-lemon-web-ui/static/js/main.06302900.js",
     "static/js/453.99c1801e.chunk.js": "/little-lemon-web-ui/static/js/453.99c1801e.chunk.js",
     "static/media/github2.png": "/little-lemon-web-ui/static/media/github2.ef3ecd96459cc67fa761.png",
     "static/media/greek-salad.jpg": "/little-lemon-web-ui/static/media/greek-salad.6cd8a8b180649e78d595.jpg",
@@ -44,12 +44,12 @@
     "static/media/iced-tea.jpg": "/little-lemon-web-ui/static/media/iced-tea.230ae521009fcb73ce22.jpg",
     "index.html": "/little-lemon-web-ui/index.html",
     "static/media/github.svg": "/little-lemon-web-ui/static/media/github.255db585f8a0eb28a1e4deb91bde207d.svg",
-    "main.1b05659f.css.map": "/little-lemon-web-ui/static/css/main.1b05659f.css.map",
-    "main.751cb4d7.js.map": "/little-lemon-web-ui/static/js/main.751cb4d7.js.map",
+    "main.eb26cf47.css.map": "/little-lemon-web-ui/static/css/main.eb26cf47.css.map",
+    "main.06302900.js.map": "/little-lemon-web-ui/static/js/main.06302900.js.map",
     "453.99c1801e.chunk.js.map": "/little-lemon-web-ui/static/js/453.99c1801e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b05659f.css",
-    "static/js/main.751cb4d7.js"
+    "static/css/main.eb26cf47.css",
+    "static/js/main.06302900.js"
   ]
 }
