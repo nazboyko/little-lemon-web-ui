@@ -1,0 +1,31 @@
+.announcement {
+    text-align: center;
+    background-color: #ffcc00; /* Lighten the background color */
+    color: #000; /* Change text color to black */
+    padding: 10px 0;
+    animation: fadeIn 4s ease-in-out;
+}
+
+.announcement p {
+    margin: 0;
+    font-size: 16px; /* Enlarge the font size */
+}
+
+.announcement a {
+    color: #000; /* Ensure the link color is black */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.announcement a:hover {
+    color: #fff;
+}
+
+@keyframes fadeIn {
+    from {
+    opacity: 0;
+    }
+    to {
+    opacity: 1;
+    }
+}

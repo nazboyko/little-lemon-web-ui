@@ -2,7 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import HomePage from './Components/Pages/HomePage'; // Import your homepage component
+import Announcement from './Components/Main/Announcement';
+import HomePage from './Components/Pages/HomePage';
 import AboutPage from './Components/Pages/AboutPage';
 import MenuPage from './Components/Pages/MenuPage';
 import ReservationsPage from './Components/Pages/ReservationsPage';
@@ -16,6 +17,7 @@ function App() {
     <Router basename="/little-lemon-web-ui">
       <div className="App">
         <Header />
+        <Announcement />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
@@ -23,8 +25,8 @@ function App() {
           <Route path="/reservations" element={<ReservationsPage />} />
           <Route path="/booked" element={<BookedPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/login" component={<LoginPage />} />
-          <Route path="/signup" component={<SignUpPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/signup" element={<SignUpPage />} />
         </Routes>
         <Footer />
       </div>
