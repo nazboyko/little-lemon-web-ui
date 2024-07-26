@@ -1,18 +1,22 @@
 .announcement {
     text-align: center;
-    background-color: #ffcc00; /* Lighten the background color */
-    color: #000; /* Change text color to black */
+    background-color: #ffcc00;
+    color: #000;
     padding: 10px 0;
-    animation: fadeIn 4s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    animation: fadeIn 3s ease-in-out;
+    opacity: 0;
+    animation-fill-mode: forwards;
 }
 
 .announcement p {
     margin: 0;
-    font-size: 16px; /* Enlarge the font size */
+    font-size: 16px;
 }
 
 .announcement a {
-    color: #000; /* Ensure the link color is black */
+    color: #000;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -21,11 +25,35 @@
     color: #fff;
 }
 
+.glint {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+    animation: glint 5s infinite;
+    animation-delay: 4s;
+}
+
 @keyframes fadeIn {
     from {
     opacity: 0;
     }
     to {
     opacity: 1;
+    }
+}
+
+@keyframes glint {
+    0% {
+    left: -150%;
+    }
+    50% {
+    left: 150%;
+    }
+    100% {
+    left: 150%;
     }
 }
