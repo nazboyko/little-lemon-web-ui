@@ -5,8 +5,9 @@ function Announcement() {
   return (
     <div className="announcement">
       <p>
-        This website is a test assignment for <a href="https://www.coursera.org/professional-certificates/meta-front-end-developer" target="_blank" rel="noopener noreferrer">Front-end Developer Specialization by Meta</a>.
+        Please note: This website is a test assignment for the <a href="https://www.coursera.org/professional-certificates/meta-front-end-developer" target="_blank" rel="noopener noreferrer">Meta Front-end Developer Specialization</a>.
       </p>
+      <div className="glint"></div>
     </div>
   );
 }
