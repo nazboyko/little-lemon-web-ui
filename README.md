@@ -2,7 +2,7 @@
 ![alt text](https://github.com/Nazar0102/little-lemon-web-ui/blob/main/src/assets/images/Logo.svg?raw=true)
 
 Welcome to the Little Lemon Restaurant website project! This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Please be aware that this website is a test project for the [Front-end Developer Specialization by Meta](https://www.coursera.org/professional-certificates/meta-front-end-developer)
+Please be aware that this website is a test project for the [Front-end Developer Specialization by Meta](https://www.coursera.org/professional-certificates/meta-front-end-developer).
 
 ## Table of Contents
 
