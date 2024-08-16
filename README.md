@@ -1,5 +1,5 @@
-# [Little Lemon Restaurant](https://nazar0102.github.io/little-lemon-web-ui/)
-![alt text](https://github.com/Nazar0102/little-lemon-web-ui/blob/main/src/assets/images/Logo.svg?raw=true)
+# [Little Lemon Restaurant](https://nazboyko.github.io/little-lemon-web-ui/)
+![alt text](https://github.com/nazboyko/little-lemon-web-ui/blob/main/src/assets/images/Logo.svg?raw=true)
 
 Welcome to the Little Lemon Restaurant website project! This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Please be aware that this website is a test project for the [Front-end Developer Specialization by Meta](https://www.coursera.org/professional-certificates/meta-front-end-developer).
@@ -31,7 +31,7 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-![alt text](https://github.com/Nazar0102/little-lemon-web-ui/blob/main/src/assets/images/temp/testing.png?raw=true)
+![alt text](https://github.com/nazboyko/little-lemon-web-ui/blob/main/src/assets/images/temp/testing.png?raw=true)
 
 
 ### `npm run build`
@@ -96,7 +96,7 @@ Make sure you have [Node.js](https://nodejs.org/) and npm installed on your mach
 1. Clone the repo
 
    ```sh 
-    git clone https://github.com/Nazar0102/little-lemon-web-ui.git
+    git clone https://github.com/nazboyko/little-lemon-web-ui.git
 
 2. Install NPM packages
    ### `npm install`

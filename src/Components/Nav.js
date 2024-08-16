@@ -13,7 +13,7 @@ function Nav({ isVisible, isAnimating }) {
         <li><Link to="/reservations">Reservations</Link></li>
         <li><Link to="/contact">Contact</Link></li>
         <li><Link to="/login">Login</Link></li>
-        <li><a href="https://github.com/Nazar0102/little-lemon-web-ui" target="_blank" rel="noopener noreferrer">
+        <li><a href="https://github.com/nazboyko/little-lemon-web-ui" target="_blank" rel="noopener noreferrer">
             <img src={GitHubIcon} alt="GitHub" className="github-icon" />
           </a></li>
       </ul>

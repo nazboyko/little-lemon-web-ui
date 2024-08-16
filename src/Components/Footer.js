@@ -45,9 +45,9 @@ function Footer() {
           <h2>Important!</h2>
           <p>
             This website is a practical project, and all information presented here is fictitious and not real. <br/>
-            The restaurant itself does not exist! For more detailed information, please visit the public <a href="https://github.com/Nazar0102/little-lemon-web-ui" target="_blank" rel="noopener noreferrer">GitHub repository </a> associated with this project.
+            The restaurant itself does not exist! For more detailed information, please visit the public <a href="https://github.com/nazboyko/little-lemon-web-ui" target="_blank" rel="noopener noreferrer">GitHub repository </a> associated with this project.
           </p>
-          <a href="https://github.com/Nazar0102/little-lemon-web-ui" target="_blank" rel="noopener noreferrer" className="github-link">
+          <a href="https://github.com/nazboyko/little-lemon-web-ui" target="_blank" rel="noopener noreferrer" className="github-link">
             <img src={GitHubIcon} alt="GitHub" className="github" />
           </a>
         </div>
